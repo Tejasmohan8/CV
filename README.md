@@ -1,7 +1,7 @@
 # CV
 69
-curl -sO http://172.16.51.56:8080/jnlpJars/agent.jar
-java -jar agent.jar -jnlpUrl http://172.16.51.56:8080/manage/computer/U%5F69/jenkins-agent.jnlp -secret e15f59bd3ee976ada1c697c525df350645a4aab6d105ebd3aaf61f61ef31f9a2 -workDir "/home/msis/jenkins"
+curl -sO http://172.16.51.34:8080/jnlpJars/agent.jar
+java -jar agent.jar -jnlpUrl http://172.16.51.34:8080/manage/computer/U%5F69/jenkins-agent.jnlp -secret e15f59bd3ee976ada1c697c525df350645a4aab6d105ebd3aaf61f61ef31f9a2 -workDir "/home/msis/jenkins"
 
 55
 curl -sO http://172.16.51.34:8080/jnlpJars/agent.jar
